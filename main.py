@@ -6,7 +6,6 @@ import traceback
 from flask import Flask, request, jsonify
 import pandas as pd
 from sklearn.externals import joblib
-
 app = Flask(__name__)
 
 # inputs
